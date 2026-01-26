@@ -12,3 +12,15 @@ This is an example of floor division and regular division.
 Which indicates that regular '/' division returns a float value,
 while '//' floor division returns an integer value by discarding the decimal part.
 '''
+
+#Takes 3 distinct integers from the user as input
+a, b, c = map(int, input("Enter three numbers separated by spaces: ").split())
+
+#cycle
+cycled_a = c
+cycled_b = a
+cycled_c = b
+
+
+print(cycled_a, cycled_b, cycled_c)
+
